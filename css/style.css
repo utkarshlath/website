@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  background-color: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+header h1 a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+}
+
+nav a.active {
+  border-bottom: 2px solid #0066cc;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list li {
+  margin-bottom: 1.2rem;
+}
+
+.blog-list .date {
+  color: #888;
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 0.75rem;
+  }
+
+  header h1 a {
+    font-size: 1.5rem;
+  }
+}
